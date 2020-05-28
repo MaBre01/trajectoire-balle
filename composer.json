@@ -1,0 +1,23 @@
+{
+    "name": "mabre/tiny-php-framework",
+    "description": "Tiny PHP Framework to do some school projects",
+    "type": "project",
+    "require": {
+        "php": "7.4.*",
+        "amenadiel/jpgraph": "^4.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0"
+    },
+    "authors": [
+        {
+            "name": "Mael Brevet",
+            "email": "mael.brevet@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
